@@ -985,7 +985,7 @@ public:
       {
         x->_data.push_back(raw_data[j][i]);
       }
-      x->series_has_headers = has_header;
+      x->series_has_headers = true;
       x->Describe();
       delete x;
     }
